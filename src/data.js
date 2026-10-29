@@ -1,11 +1,3 @@
-import HeroImage from "/assets/trttt.jpg";
-
-const Image = {
-  HeroImage,
-};
-
-export default Image;
-
 import Tools1 from "/assets/tools/vscode.png";
 import Tools2 from "/assets/tools/reactjs.png";
 import Tools3 from "/assets/tools/nextjs.png";
@@ -16,8 +8,8 @@ import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
 import Tools9 from "/assets/tools/After Effect.png";
 import Tools10 from "/assets/tools/LOgo Canva.png";
-import Tools12 from "/assets/tools/inkscape.png";
-import Tools13 from "/assets/tools/blender.png";
+import Tools11 from "/assets/tools/Inkscape.png";
+import Tools12 from "/assets/tools/Blender.png";
 
 export const listTools = [
   {
@@ -92,14 +84,14 @@ export const listTools = [
   },
   {
     id: 11,
-    gambar: Tools12,
+    gambar: Tools11,
     nama: "Inkscape",
     ket: "Design App",
     dad: "1100",
   },
   {
     id: 12,
-    gambar: Tools13,
+    gambar: Tools12,
     nama: "Blender",  
     ket: "3D Modelling",
     dad: "1200",
@@ -172,4 +164,3 @@ export const listProyek = [
     dad: "800",
   },
 ];
-

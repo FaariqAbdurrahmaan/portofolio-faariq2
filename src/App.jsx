@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import FotoBaru from "../assets/trttt.jpg";
+import FotoBaru from "/assets/trttt.jpg";
 import { listTools, listProyek } from "./data";
 import { useEffect } from "react";
 import AOS from "aos";
